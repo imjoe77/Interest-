@@ -4,6 +4,7 @@ time = float(input("Enter the Time (in years): "))
 
 # Formula: SI = (P * R * T) / 100
 simple_interest = (principal * rate * time) / 100
+compound_interest = principal * (1 + rate/100) ** time - principal
 
 # Output
 print("Simple Interest is:", simple_interest)
